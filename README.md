@@ -1,4 +1,4 @@
-# Treino da Maria Clara
+# Treino Fofo
 
 PWA mobile-first para acompanhar a rotina de treino, registrar carga/repetições, marcar exercícios concluídos, consultar exemplos de execução e usar cronômetro de descanso.
 

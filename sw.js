@@ -1,4 +1,4 @@
-const CACHE='treino-fofo-v8';
+const CACHE='treino-fofo-v9';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./assets/icon-192.png','./assets/icon-512.png','./assets/kuromi-dumbbells.webp','./assets/kuromi-squat.webp','./assets/kuromi-victory.webp'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
