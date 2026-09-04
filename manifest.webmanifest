@@ -1,0 +1,10 @@
+{
+  "name":"Treino Fofo da Maria Clara",
+  "short_name":"Treino Fofo",
+  "description":"PWA de treino com registro de carga, repetições, exemplos e cronômetro de descanso.",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#fff8fc",
+  "theme_color":"#d9a6f4",
+  "lang":"pt-BR"
+}
